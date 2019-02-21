@@ -25,11 +25,15 @@ public class Main {
         managerShop.toAdd(plate);
         managerShop.toAdd(pitcher);
 
-        System.out.println(managerShop.searchByMaterial(MaterialType.CERAMIC).toString());
+        System.out.println("Search by material:"+ managerShop.searchByMaterial(MaterialType.CERAMIC).toString()+ "\n"); //sorting by type
 
-        System.out.println(managerShop.searchByCapacity(10));
+        System.out.println("Search by capacity:"+ managerShop.searchByCapacity(10)+ "\n");
 
-        System.out.println(managerShop.sortByPriceFromExpansiveToCheap(true));
+        System.out.println("Sort by price"+ managerShop.sortByPrice(true)+ "\n");
+
+        System.out.println("Sort by capacity"+ managerShop.sortByCapacity(true)+ "\n");
+
+
 
     }
 }

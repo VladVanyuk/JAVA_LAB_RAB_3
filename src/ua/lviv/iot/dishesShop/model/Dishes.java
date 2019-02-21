@@ -15,7 +15,7 @@ public class Dishes {
         this.price = price;
         this.capacity = capacity;
         this.manufacturerCountry = manufacturerCountry;
-        this.material = material;
+        this.material = material; //type of the dishes
     }
 
     public double getPrice() {

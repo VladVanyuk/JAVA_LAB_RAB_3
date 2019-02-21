@@ -25,11 +25,19 @@ public class ShopManager {
     }
 
 
-    public List<Dishes> sortByPriceFromExpansiveToCheap(boolean ascending) {
+    public List<Dishes> sortByPrice(boolean ascending) {
         if (ascending) {
             Collections.sort(dishesList, Comparator.comparing(Dishes::getPrice).reversed());
         } else {
             Collections.sort(dishesList, Comparator.comparing(Dishes::getPrice));
+        }return dishesList;
+    }
+
+    public List<Dishes> sortByCapacity(boolean ascending) {
+        if (ascending) {
+            Collections.sort(dishesList, Comparator.comparing(Dishes::getCapacity).reversed());
+        } else {
+            Collections.sort(dishesList, Comparator.comparing(Dishes::getCapacity));
         }return dishesList;
     }
 

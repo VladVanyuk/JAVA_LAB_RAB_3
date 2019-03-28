@@ -14,22 +14,6 @@ public class DishesForStorage extends Dishes{
         this.storage = storage;
     }
 
-    public int getHeight() {
-        return height;
-    }
-
-    public void setHeight(int height) {
-        this.height = height;
-    }
-
-    public StorageType getStorage() {
-        return storage;
-    }
-
-    public void setStorage(StorageType storage) {
-        this.storage = storage;
-    }
-
     @Override
     public String toString() {
         return "\n" +super.toString() + "DishesForStorage{" + "\n" +

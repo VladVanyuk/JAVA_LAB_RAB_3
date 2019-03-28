@@ -34,14 +34,6 @@ public class Dishes {
         this.capacity = capacity;
     }
 
-    public String getManufacturerCountry() {
-        return manufacturerCountry;
-    }
-
-    public void setManufacturerCountry(String manufacturerCountry) {
-        this.manufacturerCountry = manufacturerCountry;
-    }
-
     public MaterialType getMaterial() {
         return material;
     }

@@ -16,7 +16,6 @@ public class KitchenDishes extends Dishes{
         this.workingWithFire = workingWithFire;
     }
 
-
     public CookingType getKitchen() {
         return kitchen;
     }
@@ -24,29 +23,6 @@ public class KitchenDishes extends Dishes{
     public void setKitchen(CookingType kitchen) {
         this.kitchen = kitchen;
     }
-
-
-    public WorkingType getOnWhatWorks() {
-        return onWhatWorks;
-    }
-
-    public void setOnWhatWorks(WorkingType onWhatWorks) {
-        this.onWhatWorks = onWhatWorks;
-    }
-
-
-    public boolean isWorkingWithFire() {
-        return workingWithFire;
-    }
-
-    public void setWorkingWithFire(boolean workingWithFire) {
-        this.workingWithFire = workingWithFire;
-    }
-
-
-    public boolean isActive(){return this.workingWithFire;}
-
-    public void setActive(boolean active){this.workingWithFire = active;}
 
     @Override
     public String toString() {

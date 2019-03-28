@@ -15,28 +15,6 @@ public class Dinnerware extends Dishes{
     }
 
 
-    public double getRadius() {
-        return radius;
-    }
-
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
-
-
-    public boolean isWithDye() {
-        return withDye;
-    }
-
-    public void setWithDye(boolean withDye) {
-        this.withDye = withDye;
-    }
-
-
-    public boolean isActive(){return this.withDye;}
-
-    public void setActive(boolean active){this.withDye = active;}
-
     @Override
     public String toString() {
         return "\n" +super.toString()+ "Dinnerware{" + "\n" +

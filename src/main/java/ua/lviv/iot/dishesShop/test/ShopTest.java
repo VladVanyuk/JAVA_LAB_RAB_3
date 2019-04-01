@@ -73,7 +73,6 @@ public class ShopTest {
         Assertions.assertEquals(1, iShopManager.searchByCapacity(4).size());
         Assertions.assertEquals(1, iShopManager.searchByCapacity(10).size());
         Assertions.assertEquals(1, iShopManager.searchByCapacity(100).size());
-
     }
 
 

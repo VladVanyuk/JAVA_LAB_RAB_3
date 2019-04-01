@@ -19,7 +19,7 @@ public class Dishes {
     }
 
     public double getPrice() {
-        return price;
+        return price ;
     }
 
     public void setPrice(double price) {

@@ -1,0 +1,8 @@
+price,capacity,manufacturerCountry,material,kitchen,onWhatWorks,workingWithFire
+12.3,10.0,Poland,METAL,FORCOOKING,GAS,true
+price,capacity,manufacturerCountry,material,radius,withDye
+44.0,4.0,Germany,CERAMIC,25.0,true
+price,capacity,manufacturerCountry,material,height,storage
+23.0,100.0,Ukraine,WOOD,30,WATER
+price,capacity,manufacturerCountry,material
+1.0,2.0,A,CERAMIC
